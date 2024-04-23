@@ -1,0 +1,13 @@
+{
+  "item.better_tools.quartz_sword": "Quartz Sword",
+  "gamerule.doSpecialAbilities": "Enable Special Tool Abilities",
+  "advancements.mr_quartz.title": "Mr. Quartz",
+  "item.better_tools.quartz_pickaxe": "Quartz Pickaxe",
+  "gamerule.doSpecialAbilities.description": "Make modded tools have their special abilities",
+  "item.better_tools.quartz_shovel": "Quartz Shovel",
+  "effect.better_tools.cooldown_timer_1": "Cooldown Timer 1",
+  "item.better_tools.quartz_axe": "Quartz Axe",
+  "advancements.mr_quartz.descr": "Get all quartz tools",
+  "item_group.better_tools.better_tools_tab": "Better Tools",
+  "item.better_tools.emerald_sword": "Emerald Sword"
+}

@@ -1,0 +1,42 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "quartz_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Quartz Axe",
+    "specialInformation": {
+      "fixedValue": [
+        "Will break all connecting logs. Crouch to disable. Warning: breaks instantly"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:BetterToolsTab"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 6.0,
+    "usageCount": 1200,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.QUARTZ"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "QuartzAxeBlockDestroyedWithTool"
+    }
+  }
+}

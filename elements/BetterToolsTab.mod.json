@@ -1,0 +1,11 @@
+{
+  "_fv": 60,
+  "_type": "tab",
+  "definition": {
+    "name": "Better Tools",
+    "icon": {
+      "value": "CUSTOM:QuartzSword"
+    },
+    "showSearch": false
+  }
+}
