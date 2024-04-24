@@ -60,7 +60,7 @@ public class QuartzShovelRightclickedProcedure {
 									_ent.level().getServer(), _ent),
 							("title @p actionbar {\"text\": \"You still have " + ""
 									+ ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(BetterToolsModMobEffects.COOLDOWN_TIMER_1.get()) ? _livEnt.getEffect(BetterToolsModMobEffects.COOLDOWN_TIMER_1.get()).getDuration() : 0) / 20)
-									+ " second(s) left on the cooldown!\", \"color\": \"orange\"}"));
+									+ " second(s) left on the cooldown!\", \"color\": \"material_copper\"}"));
 				}
 			}
 		}

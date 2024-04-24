@@ -14,10 +14,10 @@ public class EmeraldSwordLivingEntityIsHitWithToolProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (Math.random() < 0.1) {
+		if (Math.random() < 0.25) {
 			if (world instanceof ServerLevel _level) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY));
-				entityToSpawn.setPickUpDelay(10);
+				entityToSpawn.setPickUpDelay(50);
 				_level.addFreshEntity(entityToSpawn);
 			}
 			if (entity instanceof LivingEntity _entity) {
