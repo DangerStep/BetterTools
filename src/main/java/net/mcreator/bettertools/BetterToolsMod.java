@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.bettertools.init.BetterToolsModTabs;
 import net.mcreator.bettertools.init.BetterToolsModMobEffects;
+import net.mcreator.bettertools.init.BetterToolsModMenus;
 import net.mcreator.bettertools.init.BetterToolsModItems;
 
 import java.util.function.Supplier;
@@ -45,6 +46,7 @@ public class BetterToolsMod {
 
 		BetterToolsModMobEffects.REGISTRY.register(bus);
 
+		BetterToolsModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

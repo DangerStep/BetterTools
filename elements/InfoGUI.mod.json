@@ -1,0 +1,253 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_better_tools_info",
+          "text": {
+            "fixedValue": "Better Tools Info"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "quartz_sword.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_has_a_10_change_of_striking_lig",
+          "text": {
+            "fixedValue": "Has a %10 chance of"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_striking_lighting",
+          "text": {
+            "fixedValue": "striking lighting"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "quartz_pickaxe.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "quartz_axe.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "quartz_shovel.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_converts_gold_or_copper_into_dia",
+          "text": {
+            "fixedValue": "Converts gold or copper"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_into_diamonds",
+          "text": {
+            "fixedValue": "into diamonds (R-click)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cuts_down_the_entire_tree_crouc",
+          "text": {
+            "fixedValue": "Cuts down the entire"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_crouch_to_disable",
+          "text": {
+            "fixedValue": "tree (crouch to disable)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_super_shovel_mode",
+          "text": {
+            "fixedValue": "Super shovel mode"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rclick",
+          "text": {
+            "fixedValue": "(R-click)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_shovel_ability_has_a_cooldow",
+          "text": {
+            "fixedValue": "The shovel ability has a"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 150,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cooldown_you_might_want_unbreak",
+          "text": {
+            "fixedValue": "cooldown. You might want"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 150,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_unbreaking_on_the_shovel",
+          "text": {
+            "fixedValue": "unbreaking on the shovel."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 150,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_be_careful",
+          "text": {
+            "fixedValue": "(be careful)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 80
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

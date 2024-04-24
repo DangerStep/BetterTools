@@ -361,6 +361,69 @@
           }
         ]
       }
+    },
+    {
+      "name": "InfoGUI",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "info_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettertools/world/inventory/InfoGUIMenu.java",
+          "src/main/java/net/mcreator/bettertools/client/gui/InfoGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ModInfoRightclicked",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_info_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettertools/procedures/ModInfoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModInfo",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_info",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettertools/item/ModInfoItem.java",
+          "src/main/resources/assets/better_tools/models/item/mod_info.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -368,17 +431,31 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.better_tools.quartz_sword": "Quartz Sword",
       "gamerule.doSpecialAbilities": "Enable Special Tool Abilities",
-      "advancements.mr_quartz.title": "Mr. Quartz",
+      "gui.better_tools.info_gui.label_has_a_10_change_of_striking_lig": "Has a %10 chance of",
       "item.better_tools.quartz_pickaxe": "Quartz Pickaxe",
+      "gui.better_tools.info_gui.label_converts_gold_or_copper_into_dia": "Converts gold or copper",
+      "item.better_tools.mod_info": "Mod Info",
+      "gui.better_tools.info_gui.label_super_shovel_mode": "Super shovel mode",
+      "gui.better_tools.info_gui.label_the_shovel_ability_has_a_cooldow": "The shovel ability has a",
+      "gui.better_tools.info_gui.label_crouch_to_disable": "tree (crouch to disable)",
       "gamerule.doSpecialAbilities.description": "Make modded tools have their special abilities",
+      "item_group.better_tools.better_tools_tab": "Better Tools",
+      "gui.better_tools.info_gui.label_rclick": "(R-click)",
+      "gui.better_tools.info_gui.label_better_tools_info": "Better Tools Info",
+      "gui.better_tools.info_gui.label_be_careful": "(be careful)",
+      "item.better_tools.quartz_sword": "Quartz Sword",
+      "advancements.mr_quartz.title": "Mr. Quartz",
       "item.better_tools.quartz_shovel": "Quartz Shovel",
       "effect.better_tools.cooldown_timer_1": "Cooldown Timer 1",
       "item.better_tools.quartz_axe": "Quartz Axe",
       "advancements.mr_quartz.descr": "Get all quartz tools",
-      "item_group.better_tools.better_tools_tab": "Better Tools",
-      "item.better_tools.emerald_sword": "Emerald Sword"
+      "gui.better_tools.info_gui.label_cooldown_you_might_want_unbreak": "cooldown. You might want",
+      "gui.better_tools.info_gui.label_unbreaking_on_the_shovel": "unbreaking on the shovel.",
+      "gui.better_tools.info_gui.label_cuts_down_the_entire_tree_crouc": "Cuts down the entire",
+      "gui.better_tools.info_gui.label_into_diamonds": "into diamonds (R-click)",
+      "item.better_tools.emerald_sword": "Emerald Sword",
+      "gui.better_tools.info_gui.label_striking_lighting": "striking lighting"
     }
   },
   "foldersRoot": {

@@ -34,7 +34,7 @@ public class QuartzPickaxeRightclickedOnBlockProcedure {
 					world.setBlock(_bp, _bs, 3);
 				}
 				if (world instanceof ServerLevel _level)
-					_level.sendParticles(ParticleTypes.COMPOSTER, x, y, z, 20, 2, 2, 2, 1);
+					_level.sendParticles(ParticleTypes.COMPOSTER, x, y, z, 20, 1, 1, 1, 1);
 			} else if (blockstate == Blocks.DEEPSLATE_GOLD_ORE.defaultBlockState() || blockstate == Blocks.DEEPSLATE_COPPER_ORE.defaultBlockState()) {
 				{
 					BlockPos _bp = BlockPos.containing(x, y, z);
@@ -51,7 +51,7 @@ public class QuartzPickaxeRightclickedOnBlockProcedure {
 					world.setBlock(_bp, _bs, 3);
 				}
 				if (world instanceof ServerLevel _level)
-					_level.sendParticles(ParticleTypes.COMPOSTER, x, y, z, 20, 2, 2, 2, 1);
+					_level.sendParticles(ParticleTypes.COMPOSTER, x, y, z, 20, 1, 1, 1, 1);
 			}
 		}
 	}
