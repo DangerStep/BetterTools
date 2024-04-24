@@ -30,7 +30,7 @@
         "data": {
           "image": "quartz_sword.png",
           "use1Xscale": false,
-          "x": 150,
+          "x": 141,
           "y": 62
         }
       },
@@ -45,7 +45,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 168,
+          "x": 159,
           "y": 62
         }
       },
@@ -60,7 +60,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 168,
+          "x": 159,
           "y": 71
         }
       },
@@ -69,7 +69,7 @@
         "data": {
           "image": "quartz_pickaxe.png",
           "use1Xscale": false,
-          "x": 150,
+          "x": 141,
           "y": 89
         }
       },
@@ -78,7 +78,7 @@
         "data": {
           "image": "quartz_axe.png",
           "use1Xscale": false,
-          "x": 150,
+          "x": 141,
           "y": 116
         }
       },
@@ -87,7 +87,7 @@
         "data": {
           "image": "quartz_shovel.png",
           "use1Xscale": false,
-          "x": 150,
+          "x": 141,
           "y": 143
         }
       },
@@ -102,7 +102,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 168,
+          "x": 159,
           "y": 89
         }
       },
@@ -117,7 +117,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 168,
+          "x": 159,
           "y": 98
         }
       },
@@ -132,7 +132,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 168,
+          "x": 159,
           "y": 116
         }
       },
@@ -147,7 +147,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 168,
+          "x": 159,
           "y": 125
         }
       },
@@ -162,7 +162,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 168,
+          "x": 159,
           "y": 143
         }
       },
@@ -177,7 +177,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 168,
+          "x": 159,
           "y": 152
         }
       },
@@ -192,7 +192,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 150,
+          "x": 141,
           "y": 170
         }
       },
@@ -207,7 +207,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 150,
+          "x": 141,
           "y": 179
         }
       },
@@ -222,23 +222,36 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 150,
+          "x": 141,
           "y": 188
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_arrow",
+          "image": "arrow.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "InfoGUIPage2"
+          },
+          "x": 276,
+          "y": 179
         }
       },
       {
         "type": "label",
         "data": {
-          "name": "label_be_careful",
+          "name": "label_12",
           "text": {
-            "fixedValue": "(be careful)"
+            "fixedValue": "(1/2)"
           },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 231,
-          "y": 80
+          "x": 267,
+          "y": 44
         }
       }
     ],

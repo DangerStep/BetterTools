@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "item": "minecraft:book"
+    },
+    "c": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "better_tools:mod_info",
+    "count": 1
+  }
+}

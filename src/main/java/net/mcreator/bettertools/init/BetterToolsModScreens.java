@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.bettertools.client.gui.InfoGUIScreen;
+import net.mcreator.bettertools.client.gui.InfoGUI2Screen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class BetterToolsModScreens {
@@ -19,6 +20,7 @@ public class BetterToolsModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(BetterToolsModMenus.INFO_GUI.get(), InfoGUIScreen::new);
+			MenuScreens.register(BetterToolsModMenus.INFO_GUI_2.get(), InfoGUI2Screen::new);
 		});
 	}
 }
