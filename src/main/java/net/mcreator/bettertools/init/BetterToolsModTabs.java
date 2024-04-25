@@ -24,6 +24,7 @@ public class BetterToolsModTabs {
 				tabData.accept(BetterToolsModItems.QUARTZ_SHOVEL.get());
 				tabData.accept(BetterToolsModItems.EMERALD_SWORD.get());
 				tabData.accept(BetterToolsModItems.MOD_INFO.get());
+				tabData.accept(BetterToolsModItems.AMETHYST_SWORD.get());
 			})
 
 					.build());

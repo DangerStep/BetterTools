@@ -53,6 +53,8 @@ public class InfoGUI2Screen extends AbstractContainerScreen<InfoGUI2Menu> {
 
 		guiGraphics.blit(new ResourceLocation("better_tools:textures/screens/emerald_sword.png"), this.leftPos + 15, this.topPos + 25, 0, 0, 16, 16, 16, 16);
 
+		guiGraphics.blit(new ResourceLocation("better_tools:textures/screens/amethyst_sword.png"), this.leftPos + 15, this.topPos + 52, 0, 0, 16, 16, 16, 16);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -76,7 +78,10 @@ public class InfoGUI2Screen extends AbstractContainerScreen<InfoGUI2Menu> {
 		guiGraphics.drawString(this.font, Component.translatable("gui.better_tools.info_gui_2.label_22"), 141, 7, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.better_tools.info_gui_2.label_has_a_25_chance_of_making_the_e"), 33, 25, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.better_tools.info_gui_2.label_the_entity_drop_their_weapon"), 33, 34, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.better_tools.info_gui_2.label_to_be_continued"), 42, 61, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.better_tools.info_gui_2.label_to_be_continued"), 42, 97, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.better_tools.info_gui_2.label_converts_logs_straight_into_plan"), 33, 52, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.better_tools.info_gui_2.label_into_planks"), 33, 61, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.better_tools.info_gui_2.label_you_kill_something"), 33, 70, -12829636, false);
 	}
 
 	@Override

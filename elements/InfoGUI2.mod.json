@@ -104,7 +104,61 @@
             "falpha": 0.0
           },
           "x": 168,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "amethyst_sword.png",
+          "use1Xscale": false,
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_converts_logs_straight_into_plan",
+          "text": {
+            "fixedValue": "Spawns an amethyst block"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_into_planks",
+          "text": {
+            "fixedValue": "and gives you strength when"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
           "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_kill_something",
+          "text": {
+            "fixedValue": "you kill something"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 107
         }
       }
     ],

@@ -16,6 +16,7 @@ import net.mcreator.bettertools.item.QuartzPickaxeItem;
 import net.mcreator.bettertools.item.QuartzAxeItem;
 import net.mcreator.bettertools.item.ModInfoItem;
 import net.mcreator.bettertools.item.EmeraldSwordItem;
+import net.mcreator.bettertools.item.AmethystSwordItem;
 import net.mcreator.bettertools.BetterToolsMod;
 
 public class BetterToolsModItems {
@@ -26,6 +27,7 @@ public class BetterToolsModItems {
 	public static final RegistryObject<Item> QUARTZ_SHOVEL = REGISTRY.register("quartz_shovel", () -> new QuartzShovelItem());
 	public static final RegistryObject<Item> EMERALD_SWORD = REGISTRY.register("emerald_sword", () -> new EmeraldSwordItem());
 	public static final RegistryObject<Item> MOD_INFO = REGISTRY.register("mod_info", () -> new ModInfoItem());
+	public static final RegistryObject<Item> AMETHYST_SWORD = REGISTRY.register("amethyst_sword", () -> new AmethystSwordItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }
