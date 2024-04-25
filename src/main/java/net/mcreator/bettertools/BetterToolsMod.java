@@ -21,6 +21,7 @@ import net.mcreator.bettertools.init.BetterToolsModTabs;
 import net.mcreator.bettertools.init.BetterToolsModMobEffects;
 import net.mcreator.bettertools.init.BetterToolsModMenus;
 import net.mcreator.bettertools.init.BetterToolsModItems;
+import net.mcreator.bettertools.init.BetterToolsModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,6 +40,8 @@ public class BetterToolsMod {
 	public BetterToolsMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		BetterToolsModBlocks.REGISTRY.register(bus);
 
 		BetterToolsModItems.REGISTRY.register(bus);
 

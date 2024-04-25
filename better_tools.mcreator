@@ -601,17 +601,56 @@
           "src/main/resources/data/better_tools/recipes/amethyst_sword_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_tools/models/item/ruby.json",
+          "src/main/java/net/mcreator/bettertools/item/RubyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_tools/worldgen/placed_feature/ruby_ore.json",
+          "src/main/resources/data/better_tools/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/assets/better_tools/models/item/ruby_ore.json",
+          "src/main/resources/data/better_tools/loot_tables/blocks/ruby_ore.json",
+          "src/main/resources/assets/better_tools/blockstates/ruby_ore.json",
+          "src/main/resources/assets/better_tools/models/block/ruby_ore.json",
+          "src/main/java/net/mcreator/bettertools/block/RubyOreBlock.java",
+          "src/main/resources/data/better_tools/worldgen/configured_feature/ruby_ore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RubyOre"
+    ]
+  },
   "language_map": {
     "en_us": {
+      "item.better_tools.ruby": "Ruby",
       "gui.better_tools.info_gui_2.label_better_tools_info": "Better Tools Info",
       "gui.better_tools.info_gui_2.label_into_planks": "and gives you strength when",
-      "gamerule.doSpecialAbilities": "Enable Special Tool Abilities",
       "gui.better_tools.info_gui.label_has_a_10_change_of_striking_lig": "Has a %10 chance of",
+      "gamerule.doSpecialAbilities": "Enable Special Tool Abilities",
       "item.better_tools.quartz_pickaxe": "Quartz Pickaxe",
       "gui.better_tools.info_gui.label_converts_gold_or_copper_into_dia": "Converts gold or copper",
       "item.better_tools.mod_info": "Mod Info",
@@ -633,6 +672,7 @@
       "item.better_tools.quartz_axe": "Quartz Axe",
       "advancements.mr_quartz.descr": "Get all quartz tools",
       "gui.better_tools.info_gui_2.label_the_entity_drop_their_weapon": "entity drop their weapon",
+      "block.better_tools.ruby_ore": "Ruby Ore",
       "gui.better_tools.info_gui_2.label_to_be_continued": "To be Continued...",
       "gui.better_tools.info_gui.label_cooldown_you_might_want_unbreak": "cooldown. You might want",
       "item.better_tools.amethyst_sword": "Amethyst Sword",

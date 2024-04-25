@@ -25,6 +25,8 @@ public class BetterToolsModTabs {
 				tabData.accept(BetterToolsModItems.EMERALD_SWORD.get());
 				tabData.accept(BetterToolsModItems.MOD_INFO.get());
 				tabData.accept(BetterToolsModItems.AMETHYST_SWORD.get());
+				tabData.accept(BetterToolsModItems.RUBY.get());
+				tabData.accept(BetterToolsModBlocks.RUBY_ORE.get().asItem());
 			})
 
 					.build());
