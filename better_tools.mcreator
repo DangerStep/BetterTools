@@ -588,6 +588,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_tools/recipes/amethyst_sword_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -597,8 +610,8 @@
     "en_us": {
       "gui.better_tools.info_gui_2.label_better_tools_info": "Better Tools Info",
       "gui.better_tools.info_gui_2.label_into_planks": "and gives you strength when",
-      "gui.better_tools.info_gui.label_has_a_10_change_of_striking_lig": "Has a %10 chance of",
       "gamerule.doSpecialAbilities": "Enable Special Tool Abilities",
+      "gui.better_tools.info_gui.label_has_a_10_change_of_striking_lig": "Has a %10 chance of",
       "item.better_tools.quartz_pickaxe": "Quartz Pickaxe",
       "gui.better_tools.info_gui.label_converts_gold_or_copper_into_dia": "Converts gold or copper",
       "item.better_tools.mod_info": "Mod Info",
