@@ -3,7 +3,7 @@
     {
       "name": "QuartzSword",
       "type": "tool",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_sword",
@@ -17,7 +17,7 @@
     {
       "name": "DoSpecialAbilities",
       "type": "gamerule",
-      "sortid": 1,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "do_special_abilities",
@@ -29,7 +29,7 @@
     {
       "name": "QuartzSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 3,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_sword_living_entity_is_hit_with_tool",
@@ -60,7 +60,7 @@
     {
       "name": "QuartzPickaxeRightclicked",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_pickaxe_rightclicked",
@@ -74,7 +74,7 @@
     {
       "name": "QuartzPickaxe",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_pickaxe",
@@ -88,7 +88,7 @@
     {
       "name": "BetterToolsTab",
       "type": "tab",
-      "sortid": 9,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "better_tools_tab",
@@ -99,7 +99,7 @@
     {
       "name": "TimberScript",
       "type": "code",
-      "sortid": 10,
+      "sortid": 13,
       "compiles": true,
       "locked_code": true,
       "registry_name": "timber_script",
@@ -112,7 +112,7 @@
     {
       "name": "QuartzAxeBlockDestroyedWithTool",
       "type": "procedure",
-      "sortid": 11,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_axe_block_destroyed_with_tool",
@@ -147,7 +147,7 @@
     {
       "name": "QuartzAxe",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_axe",
@@ -161,7 +161,7 @@
     {
       "name": "QuartzShovel",
       "type": "tool",
-      "sortid": 13,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_shovel",
@@ -175,7 +175,7 @@
     {
       "name": "QuartzSwordRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_sword_recipe",
@@ -188,7 +188,7 @@
     {
       "name": "QuartzPickaxeRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_pickaxe_recipe",
@@ -201,7 +201,7 @@
     {
       "name": "QuartzAxeRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_axe_recipe",
@@ -214,7 +214,7 @@
     {
       "name": "QuartzShovelRecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_shovel_recipe",
@@ -227,7 +227,7 @@
     {
       "name": "QuartzPickaxeRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_pickaxe_rightclicked_on_block",
@@ -266,7 +266,7 @@
     {
       "name": "MrQuartz",
       "type": "achievement",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mr_quartz",
@@ -279,7 +279,7 @@
     {
       "name": "QuartzShovelRightclicked",
       "type": "procedure",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_shovel_rightclicked",
@@ -306,7 +306,7 @@
     {
       "name": "CooldownTimer1",
       "type": "potioneffect",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooldown_timer_1",
@@ -319,7 +319,7 @@
     {
       "name": "EmeraldSword",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emerald_sword",
@@ -418,7 +418,7 @@
     {
       "name": "ModInfo",
       "type": "item",
-      "sortid": 26,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mod_info",
@@ -432,7 +432,7 @@
     {
       "name": "InfoGUIPage2",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "info_gui_page_2",
@@ -467,7 +467,7 @@
     {
       "name": "InfoGUI2",
       "type": "gui",
-      "sortid": 28,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "info_gui_2",
@@ -482,7 +482,7 @@
     {
       "name": "InfoGUIPage1",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "info_gui_page_1",
@@ -517,7 +517,7 @@
     {
       "name": "ModInfoRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mod_info_recipe",
@@ -530,7 +530,7 @@
     {
       "name": "EmeraldSwordRecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emerald_sword_recipe",
@@ -543,7 +543,7 @@
     {
       "name": "AmethystSword",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_sword",
@@ -557,7 +557,7 @@
     {
       "name": "AmethystSwordOnEntityKilled",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_sword_on_entity_killed",
@@ -592,7 +592,7 @@
     {
       "name": "AmethystSwordRecipe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_sword_recipe",
@@ -605,7 +605,7 @@
     {
       "name": "MusicSelector",
       "type": "gui",
-      "sortid": 35,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_selector",
@@ -621,7 +621,7 @@
     {
       "name": "MusicBox",
       "type": "block",
-      "sortid": 36,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_box",
@@ -639,7 +639,7 @@
     {
       "name": "OnButtonClickedRickRoll",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_button_clicked_rick_roll",
@@ -671,7 +671,7 @@
     {
       "name": "OnButtonClickedBabyShark",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_button_clicked_baby_shark",
@@ -703,7 +703,7 @@
     {
       "name": "OnButtonClickedHuh",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_button_clicked_huh",
@@ -735,7 +735,7 @@
     {
       "name": "OnButtonClickedDoorbell",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_button_clicked_doorbell",
@@ -767,7 +767,7 @@
     {
       "name": "MusicBoxBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_box_destroyed_by_player",
@@ -841,8 +841,8 @@
     "en_us": {
       "gui.better_tools.info_gui_2.label_better_tools_info": "Better Tools Info",
       "gui.better_tools.info_gui_2.label_into_planks": "and gives you strength when",
-      "gamerule.doSpecialAbilities": "Enable Special Tool Abilities",
       "subtitles.doorbell": "",
+      "gamerule.doSpecialAbilities": "Enable Special Tool Abilities",
       "item.better_tools.quartz_pickaxe": "Quartz Pickaxe",
       "subtitles.baby-shark": "",
       "gui.better_tools.music_selector.button_rick_roll": "Rick Roll",
