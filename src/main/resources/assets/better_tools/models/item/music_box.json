@@ -1,5 +1,5 @@
 {
-  "parent": "better_tools:block/ruby_ore",
+  "parent": "better_tools:block/music_box",
   "display": {
     "thirdperson": {
       "rotation": [

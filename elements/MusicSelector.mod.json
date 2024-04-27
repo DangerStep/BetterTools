@@ -1,0 +1,121 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 306,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_music_selector",
+          "text": {
+            "fixedValue": "Music Selector"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_rick_roll",
+          "text": "Rick Roll",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OnButtonClickedRickRoll"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "play_locally",
+          "text": "Play the music for you (WIP)",
+          "x": 78,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_baby_shark",
+          "text": "Baby Shark",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OnButtonClickedBabyShark"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 186,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_doorbell_noise",
+          "text": "Doorbell Noise",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OnButtonClickedDoorbell"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 186,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stop",
+          "text": "Stop",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MusicBoxBlockDestroyedByPlayer"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 312,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_huh",
+          "text": "Huh?",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OnButtonClickedHuh"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 186,
+          "y": 89
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "rick-roll": {
+    "sounds": [
+      {
+        "name": "better_tools:mzg1odmxntizmzg1odm3_jzthsfvuy24",
+        "stream": true
+      }
+    ]
+  },
+  "huh": {
+    "sounds": [
+      {
+        "name": "better_tools:videoplayback",
+        "stream": true
+      }
+    ]
+  },
+  "baby-shark": {
+    "sounds": [
+      {
+        "name": "better_tools:videoplayback-_1_",
+        "stream": true
+      }
+    ]
+  },
+  "doorbell": {
+    "sounds": [
+      {
+        "name": "better_tools:ring-doorbell-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  }
+}
